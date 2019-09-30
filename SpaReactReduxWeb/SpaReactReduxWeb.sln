@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.452
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaReactReduxWeb", "SpaReactReduxWeb\SpaReactReduxWeb.csproj", "{9E15E611-A1E7-482F-B93D-5A1181EE1B42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaReactReduxWeb", "SpaReactReduxWeb\SpaReactReduxWeb.csproj", "{9E15E611-A1E7-482F-B93D-5A1181EE1B42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NN.Tests", "NN.Tests\NN.Tests.csproj", "{3273D826-152E-47E1-9469-8C63EB992294}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9E15E611-A1E7-482F-B93D-5A1181EE1B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E15E611-A1E7-482F-B93D-5A1181EE1B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E15E611-A1E7-482F-B93D-5A1181EE1B42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3273D826-152E-47E1-9469-8C63EB992294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3273D826-152E-47E1-9469-8C63EB992294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3273D826-152E-47E1-9469-8C63EB992294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3273D826-152E-47E1-9469-8C63EB992294}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
