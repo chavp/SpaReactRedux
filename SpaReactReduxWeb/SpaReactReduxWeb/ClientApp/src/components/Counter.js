@@ -10,8 +10,10 @@ const Counter = props => (
     <p>This is a simple example of a React component.</p>
 
     <p>Current count: <strong>{props.count}</strong></p>
-
-    <button className="btn btn-primary" onClick={props.increment}>Increment</button>
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <button className="btn btn-primary" onClick={props.increment}>Increment</button>
+        <button className="btn btn-danger" onClick={props.decrement}>Decrement</button>
+    </div>
   </div>
 );
 
