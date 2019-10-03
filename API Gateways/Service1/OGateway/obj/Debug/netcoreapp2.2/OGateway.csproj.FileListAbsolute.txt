@@ -1,0 +1,12 @@
+D:\labs\API Gateways\Service1\OGateway\bin\Debug\netcoreapp2.2\OGateway.deps.json
+D:\labs\API Gateways\Service1\OGateway\bin\Debug\netcoreapp2.2\OGateway.runtimeconfig.json
+D:\labs\API Gateways\Service1\OGateway\bin\Debug\netcoreapp2.2\OGateway.runtimeconfig.dev.json
+D:\labs\API Gateways\Service1\OGateway\bin\Debug\netcoreapp2.2\OGateway.dll
+D:\labs\API Gateways\Service1\OGateway\obj\Debug\netcoreapp2.2\OGateway.csproj.CoreCompileInputs.cache
+D:\labs\API Gateways\Service1\OGateway\obj\Debug\netcoreapp2.2\OGateway.AssemblyInfoInputs.cache
+D:\labs\API Gateways\Service1\OGateway\obj\Debug\netcoreapp2.2\OGateway.AssemblyInfo.cs
+D:\labs\API Gateways\Service1\OGateway\bin\Debug\netcoreapp2.2\ocelot.json
+D:\labs\API Gateways\Service1\OGateway\bin\Debug\netcoreapp2.2\OGateway.pdb
+D:\labs\API Gateways\Service1\OGateway\obj\Debug\netcoreapp2.2\OGateway.dll
+D:\labs\API Gateways\Service1\OGateway\obj\Debug\netcoreapp2.2\OGateway.pdb
+D:\labs\API Gateways\Service1\OGateway\obj\Debug\netcoreapp2.2\OGateway.csprojAssemblyReference.cache

@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\labs\\API Gateways\\Service1\\OGateway\\OGateway.csproj": {}
+  },
+  "projects": {
+    "D:\\labs\\API Gateways\\Service1\\OGateway\\OGateway.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\labs\\API Gateways\\Service1\\OGateway\\OGateway.csproj",
+        "projectName": "OGateway",
+        "projectPath": "D:\\labs\\API Gateways\\Service1\\OGateway\\OGateway.csproj",
+        "packagesPath": "C:\\Users\\parinya\\.nuget\\packages\\",
+        "outputPath": "D:\\labs\\API Gateways\\Service1\\OGateway\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\parinya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.16.8.127/Nuget/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Ocelot": {
+              "target": "Package",
+              "version": "[13.5.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

@@ -158,5 +158,76 @@ namespace NN.Tests
         {
             return data.Select(x => x * x).Sum() / data.Count;
         }
+
+        [TestMethod]
+        public void Solve001()
+        {
+            // (n1, L1, l1, x1), (n2, L2, l2, x2), (n3, L3, l3, x3)
+            // c1: x = x1 + x2 + x3
+            // c2: x1 + l1 <= L1
+            // c3: x2 + l2 <= L2
+            // c4: x3 + l3 <= L3
+
+            // input: x, L1, l1, L2, l2, L3, l3
+            // output: (x1, x2, x3)
+
+            // X คือ ปริมาณน้ำที่เติมได้
+            uint X = 50;
+            // n คือ รหัสถัง, L คือ ความจุน้ำของถัง, l คือ ปริมาณน้ำที่อยู่ในถัง และ x คือ ปริมาณน้ำที่เติมเข้าไป
+            var tanks = new List<Tank>
+            {
+                new Tank(60, 10),
+                new Tank(40, 5),
+                new Tank(30, 6),
+            };
+
+            var r = X - (uint)tanks.Sum(x => x.l);
+            var done = false;
+            do {
+                for (int i = 0; i < tanks.Count; i++)
+                {
+                    if (!tanks[i].IsFull
+                        && r > 0)
+                    {
+                        tanks[i].Fill(r);
+                        r = X - (uint)tanks.Sum(x => x.l);
+
+                        //if ((tanks[i].l + tanks[i].x) == X)
+                        //{
+                        //    done = true;
+                        //    break;
+                        //}
+                    }
+                }
+            }
+            while (r > 0 && !done);
+            var remain = X - tanks.Sum(x => x.l);
+        }
+
+        public class Tank
+        {
+            public uint L { get; protected set; }
+            public uint l { get; protected set; }
+
+            public Tank(uint L, uint l)
+            {
+                this.L = L;
+                this.l = l;
+            }
+
+            public void Fill(uint x)
+            {
+                var r = L - l;
+                l = Math.Clamp(x, l, r);
+            }
+
+            public bool IsFull
+            {
+                get
+                {
+                    return (L == l);
+                }
+            }
+        }
     }
 }

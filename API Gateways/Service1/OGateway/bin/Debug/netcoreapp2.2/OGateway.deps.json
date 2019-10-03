@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": "76238352993e089571afd5265cfd2a7f6c882cae"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "OGateway/1.0.0": {
+        "dependencies": {
+          "Ocelot": "13.5.2"
+        },
+        "runtime": {
+          "OGateway.dll": {}
+        }
+      },
+      "FluentValidation/8.4.0": {
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.4.0.0"
+          }
+        }
+      },
+      "Ocelot/13.5.2": {
+        "dependencies": {
+          "FluentValidation": "8.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Ocelot.dll": {
+            "assemblyVersion": "13.5.2.0",
+            "fileVersion": "13.5.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OGateway/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FluentValidation/8.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/VApywgD2sqD3aB1tzub6SIItmwxXN0D5yAiP3kuFHmjYO1W+Ryi531/m4O03/hlfcYrBgewDJn7Jd1Xk0vTdw==",
+      "path": "fluentvalidation/8.4.0",
+      "hashPath": "fluentvalidation.8.4.0.nupkg.sha512"
+    },
+    "Ocelot/13.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eZYLCfO7Bqu3NKnQ1TR6tjWnjjtdwKcP7T3TdthAoVLRPTxnQw6g6Gc1RXNbrFm5UQ/2N4L2U9I4fHG4FuJz9Q==",
+      "path": "ocelot/13.5.2",
+      "hashPath": "ocelot.13.5.2.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+D:\labs\API Gateways\Service1\WebService1\bin\Debug\netcoreapp2.2\WebService1.deps.json
+D:\labs\API Gateways\Service1\WebService1\bin\Debug\netcoreapp2.2\WebService1.runtimeconfig.json
+D:\labs\API Gateways\Service1\WebService1\bin\Debug\netcoreapp2.2\WebService1.runtimeconfig.dev.json
+D:\labs\API Gateways\Service1\WebService1\bin\Debug\netcoreapp2.2\WebService1.dll
+D:\labs\API Gateways\Service1\WebService1\bin\Debug\netcoreapp2.2\WebService1.pdb
+D:\labs\API Gateways\Service1\WebService1\obj\Debug\netcoreapp2.2\WebService1.csproj.CoreCompileInputs.cache
+D:\labs\API Gateways\Service1\WebService1\obj\Debug\netcoreapp2.2\WebService1.RazorAssemblyInfo.cache
+D:\labs\API Gateways\Service1\WebService1\obj\Debug\netcoreapp2.2\WebService1.RazorAssemblyInfo.cs
+D:\labs\API Gateways\Service1\WebService1\obj\Debug\netcoreapp2.2\WebService1.AssemblyInfoInputs.cache
+D:\labs\API Gateways\Service1\WebService1\obj\Debug\netcoreapp2.2\WebService1.AssemblyInfo.cs
+D:\labs\API Gateways\Service1\WebService1\obj\Debug\netcoreapp2.2\WebService1.RazorTargetAssemblyInfo.cache
+D:\labs\API Gateways\Service1\WebService1\obj\Debug\netcoreapp2.2\WebService1.dll
+D:\labs\API Gateways\Service1\WebService1\obj\Debug\netcoreapp2.2\WebService1.pdb
